@@ -1,0 +1,91 @@
+
+body{
+	background-image: url(../img/agua.jpg); /*fondo imagen*/
+	background-repeat: no-repeat; /*  para no agrandar en caso de cambio de resolucio */
+	background-size: cover; 
+
+	font-family: arial;
+	font-size: 18px;
+
+	
+}
+h1{
+	font-family: cursive;
+	color: blue;
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	background: #ADD8E6;
+	border-radius: 20px;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: #191970;
+	border-radius: 20px;
+}
+
+ul{
+	margin: auto;
+	padding-top: 5px; /*espacio entre la linea superior*/
+
+}
+li{
+	box-shadow: 0 0 20px white inset; /*color interno del los botones del menu borde (blanco)*/
+}
+
+img #logo{
+width: 1000px;
+	height: 50px;
+	background: #191970;
+	border-radius: 20px;
+}
+}
+}
+
+footer{
+
+	width: 1000px;
+	height: 50px;
+	background: red;
+	border-radius: 10px;
+	font-style: calibri;
+	font-size: center;
+}
+/* para resaltar y pocisionar el contenido  */
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+
+nav#menu ul li 
+ {
+display: inline-block; /*  muestra el listado de forma horizontal */
+padding: 0.5em;
+background: #00ff00; /*  colorr de cuadros del menu (verde) */
+border-radius: 0.5em; /* esto quita el borde de las puntas de los hipervinculos  */
+}
+
+
+/*   para que el cursor se active al ingresar alos cuadros dde menus*/
+nav#menu ul li:hover 
+{
+cursor: pointer;
+
+background: #20B2AA;
+}
+
+
+nav#menu ul li a 
+{
+color: #000000; /*  colorr de la letras del menuss */
+text-decoration: none; /* esto quita la raya del hipervinculo de la letra  */
+}
